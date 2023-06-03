@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adblock game</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="Rules">Rules: one filter can block only one box.</div>
+    <div id="flex">
+        <div class="flexbox">
+            <p>Level 1 (don not block this text)</p>
+            <div id="level1">Level 1</div>
+            <input class="input1" type="text" placeholder="Level 1">
+            <button onclick="level1()" class="center"> Submit answer</button>
+        </div>
+        <div class="flexbox level2">
+            <p>Level 2 (don not block this text)</p>
+            <div id="a3453"> Level 2</div>
+            <input class="input2" type="text" placeholder="Level 2">
+            <button onclick="level2()" class="center"> Submit answer</button>
+        </div>
+        <div class="flexbox level3">
+            <p>Level 3 (don not block this text)</p>
+            <div id="a3453"> Level 3</div>
+            <input class="input3" type="text" placeholder="Level 3">
+            <button onclick="level3()" class="center"> Submit answer</button>
+        </div>
+        <div class="flexbox level4">
+            <p>Level 4 (don not block this text)</p>
+            <div id="a3453"> Level 4</div>
+            <input class="input4" type="text" placeholder="Level 4">
+            <button onclick="level4()" class="center"> Submit answer</button>
+        </div>
+    </div>
+    <div class="download">
+        <div>Download answers here >></div>
+        <div id="downloadcontent">
+        <button onclick="handleDownload()" >Download Answers</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

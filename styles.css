@@ -1,0 +1,97 @@
+* {
+    font-family: Arial, sans-serif;
+}
+
+.Rules {
+    font-weight: 900;
+}
+
+p {
+    text-align: center;
+}
+
+
+.flexbox {
+    margin: 10px 30px;
+    width: 250px;
+}
+
+#flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+input,
+.center {
+    margin: 10px auto auto auto;
+    display: block;
+}
+
+.flexbox>div {
+    border-radius: 15px;
+}
+
+/* level 1------------------------------------------ */
+#level1 {
+    background-color: rgb(40, 190, 40);
+    text-align: center;
+    font-weight: bold;
+    font-size: 70px;
+    height: 200px;
+    width: 200px;
+    margin: auto;
+}
+
+/* level 2------------------------------------------ */
+
+.level2>div {
+    background-color: rgb(151, 233, 96);
+    text-align: center;
+    font-weight: bold;
+    font-size: 70px;
+    height: 200px;
+    width: 200px;
+    margin: auto;
+}
+
+/* level 3------------------------------------------ */
+
+.level3>div {
+    background-color: rgb(206, 233, 96);
+    text-align: center;
+    font-weight: bold;
+    font-size: 70px;
+    height: 200px;
+    width: 200px;
+    margin: auto;
+}
+/* level 4------------------------------------------ */
+
+.level4>div {
+    background-color: rgb(233, 231, 96);
+    text-align: center;
+    font-weight: bold;
+    font-size: 70px;
+    height: 200px;
+    width: 200px;
+    margin: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* download--------------------------------------------------- */
+.download>* {
+    display: inline;
+}
+
+.download {
+    margin-top: 50px;
+}
